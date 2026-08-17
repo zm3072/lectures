@@ -1,3 +1,10 @@
+### kvdivergence · KV Cache 量化对 LLM 贪心输出的行为学评估 — 独立研究项目，Python / llama.cpp
+
+研究动机：业界以困惑度为依据将 8-bit KV cache 当作"近乎无损"的默认部署方案，但对于依赖输出确定性的下游场景（KV 缓存复用、单元测试、审计），关心的是 token 级文本等价而非分布距离。项目要回答：KV cache 量化是否会改变贪心解码下的实际输出文本？——这一问题聚合指标无法回答。
+度量方案设计：提出三个字符级、确定性的行为学度量——首次分歧位置（first-divergence）、翻转比例（flip-fraction，首次分歧位置占参考文本长度的比例）、改变比例（change-rate），替代困惑度作为"是否无损"的判据；度量精确、无需 token 对齐或 LLM 打分。
+实验方案设计：搭建三台仅 KV 精度不同的 llama.cpp 服务（fp16 / q8_0 / q4_0），共用权重、种子、上下文与 Flash Attention，将 -ctk / -ctv 隔离为唯一自变量；加入同服务 fp16 两次请求的自洽对照（30/30 字节一致）排除运行抖动，关闭跨服务 prompt cache 复用避免污染 KV 状态。
+主要发现：30 条固定提示、128 token 贪心续写下，q8_0 在 83% 的提示上改变输出（中位翻转点 41%），q4_0 在 100% 上改变（中位翻转点 0%）；由于 fp16 与 q8_0 共用 Flash Attention 实现，分歧可归因于 KV 精度而非注意力实现——8-bit KV 在 token 级并非无损。
+
 ### 高效深度学习模型压缩与硬件感知优化｜MIT
 
 **技术栈：** Python、PyTorch、Transformers、Pruning、Quantization、NAS、AWQ
