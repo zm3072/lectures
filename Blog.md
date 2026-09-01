@@ -1,4 +1,4 @@
-# blog5
+# Aug_blog5
 - https://intology.ai/blog/scaling-automated-post-training 
 - https://doomscrollingbabel.manoel.xyz/p/science-should-be-open-for-llms-too 
 - https://handbook.modular.com/ 
@@ -18,7 +18,24 @@
 - https://jinyansu1.github.io/blog/2026/07/agent-context-engineering-long-running-harness/ 
 - https://www.databricks.com/blog/managing-ai-coding-costs-scale 
 
-# blog6
+# Aug_blog6
+- https://magazine.sebastianraschka.com/p/claude-watermarking 
+- https://ryjohnson09.github.io/quarto-git-sandbox/ 
+- https://storage.googleapis.com/marin-public/held/harrier-k40-cluster-overview/2026.08.18/index.html?revision=uniform-sampling#cluster-15 
+- https://nightingal3.github.io/blog/2026/08/09/research-retrospective/ 
+- https://docs.pytorch.org/devlogs/eager/2026-08-09-pinned-memory-allocator/ 
+- https://aimslab.stanford.edu/blog/compass-and-certificate 
+- https://scotthao.com/writing/distributed-locks 
+- https://www.lesswrong.com/posts/z9fPtghFxELBXebY3/evaluating-chain-of-thought-monitorability-is-still-an-open 
+- https://huggingface.co/blog/multi-vector-encoder 
+- https://jhu-clsp.github.io/speedrunner/ 
+- https://newsletter.forethought.org/p/notes-on-implications-of-scale-dependent 
+- https://envharness.com/ 
+- https://jzhao2024.github.io/notes/2026/08/08/diffusion-language-models.html 
+- https://daphnecornelisse.substack.com/p/training-artificial-electric-fish 
+
+
+# july_blog6
 - https://huggingface.co/spaces/veri-safe/SWD-Blog#1-introduction 
 - https://ddkang.substack.com/p/pervasive-annotation-errors-break 
 - https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations 
