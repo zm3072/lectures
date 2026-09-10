@@ -1,3 +1,23 @@
+# Sep_blog3
+- https://arthur-heng.github.io/Random-Attention-page/ 
+- https://www.doubleai.com/research/argmaxrl-generalizing-maxrl-to-continuous-rewards 
+- https://diffusionopsd.github.io/ 
+- https://openai.com/index/gpt-6-astra/ 
+- https://rocm.blogs.amd.com/software-tools-optimization/mi450-lds-optimization/README.html 
+- https://blog.doubleword.ai/what-happens-when-a-gpu-writes-memory 
+- https://githubnext.com/projects/chopin/ 
+- https://serchirag.github.io/roms-imle/ 
+- https://rsi-list.com/ 
+- https://biobabel.stanford.edu/ 
+- https://alignment.anthropic.com/2026/reward-seeker/ 
+- https://bayesianalgorithms.com/ 
+- https://medium.com/google-cloud/7-ai-agent-skill-patterns-every-programmer-should-know-92edf62c3d7d 
+- https://github.com/reactor-team/infinite-livestream 
+- https://suveenellawela.com/thoughts/robot-learning-2026-spring-eth-zurich 
+- https://github.com/xevrion/breakscale 
+- https://claude.com/blog/the-ai-native-sdlc-playbook 
+
+
 # Aug_blog5
 - https://intology.ai/blog/scaling-automated-post-training 
 - https://doomscrollingbabel.manoel.xyz/p/science-should-be-open-for-llms-too 
