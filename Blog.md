@@ -1,3 +1,5 @@
+https://github.com/LiftingVermosh/CMU-11-768-AIAgents
+
 # Sep_blog3
 - https://arthur-heng.github.io/Random-Attention-page/ 
 - https://www.doubleai.com/research/argmaxrl-generalizing-maxrl-to-continuous-rewards 
